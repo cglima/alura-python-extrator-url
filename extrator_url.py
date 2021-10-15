@@ -55,7 +55,8 @@ extrator_url = ExtratorURL(url)
 extrator_url_2 = ExtratorURL(url)
 
 print(f'O tamanho da URL é: {len(extrator_url)}')
-print(extrator_url)
+print(f'URL completa: {extrator_url}')
+print(f'extrator_url == extrator_url_2? {extrator_url == extrator_url_2}')
 
 valor_quantidade = extrator_url.get_valor_parametro('quantidade')
-print(valor_quantidade)
+print(f'Valor do parâmetro \"quantidade\": {valor_quantidade}')
